@@ -9,7 +9,9 @@ function Hero() {
                 <button>Get Started</button>
             </section>
             <section className={styles.image}>
-                <img alt="course-hours-and-members" src="./../../images/image-hero-desktop@2x.webp"/>
+                <img className={styles.imgActiveDesktop} alt="course-hours-and-member" src="./../../images/image-hero-desktop@2x.webp"/>
+                <img className={styles.imgActiveTablet} alt="course-hours-and-member" src="./../../images/image-hero-tablet@2x.webp"/>
+                <img className={styles.imgActiveMobile} alt="course-hours-and-member" src="./../../images/image-hero-mobile@2x.webp"/>
             </section>
         </div>
     );
