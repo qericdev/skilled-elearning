@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1440px;
+    height: 552px;
+    padding: 24px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    width:457px;
+    text-align: left;
+}
+
+.description > h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+    margin: 0;
+}
+
+.description > p {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    text-align: justify;
+    margin: 29px 0 0 0;
+}
+
+.description > button {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    border-width: 0;
+    color: #FFFFFF;
+    width: 167px;
+    height: 63px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    margin-top: 40px;
+}
+
+.description > button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    cursor: url(./../../public/images/pointer.png), auto;
+}
+
+.image {
+    width: 50%;
+    position: relative;
+}
+
+.image > img {
+    width: 800px;
+    position: absolute;
+    top:-460px;
+    right: -330px;
+    z-index: -1;
+}
